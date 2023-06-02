@@ -147,7 +147,8 @@ body{
     align-items: center;
     justify-content: center;
     width: 50%;
-    height: 450px
+    height: 450px;
+    
 }
 .imagemHome img{
     height: 400px;
@@ -342,6 +343,128 @@ body{
     height: 140px;
     width: 140px;
     border-radius: 100%;
+}
+#pacotes{
+    display: flex;
+    flex-direction: column;
+    height: 130vh;
+    width: 100%;
+}
+.tituloPac{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-height: auto;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.tituloPac p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.75);
+    user-select: none;
+}
+.linhaPac{
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    width: 30%;
+    user-select: none;
+}
+.containerPacs{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.cardPacUm{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 600px;
+    align-items: center;
+    border: 5px solid #1EC8BB;
+}
+.cardPacUm h1,
+.cardPacDois h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2rem;
+    color: #1EC8BB;
+    margin-top: 5%;
+}
+.cardPacUm h2,
+.cardPacDois h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.3rem;
+    text-align: center;
+    color: #000000;
+    margin-top: 3%;
+}
+.paragrafoCardUm{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    color: rgba(94, 94, 94, 0.83);
+    margin-top: 1%;
+}
+.btnComprarCard{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3rem;
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    background: #1EC8BB;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10%;
+}
+.btnComprarCard:hover{
+    scale: 1.1;
+    background: rgba(56, 215, 203, 1);
+    transition: all 0.3s ease-out;
+}
+.paragrafoCardDois{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    text-align: left;
+    color: rgba(94, 94, 94, 0.83);
+    margin-top: 10%;
+}
+ul{
+    margin-top: 5%;
+
+}
+li{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    color: rgba(94, 94, 94, 0.83);
+    line-height: 40px;
+}
+.cardPacDois{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: 600px;
+    align-items: center;
 }
 footer{
     background-color: rgba(52, 51, 51, 1);
