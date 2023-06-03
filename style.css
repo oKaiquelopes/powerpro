@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 .cabecalho{
     display: flex;
     flex-direction: row;
@@ -140,7 +143,6 @@ body{
     transition: all 0.3s ease-out;
 }
 .imagemHome{
-
     display: flex;
     margin-top: 8%;
     margin-left: 3%;
@@ -466,6 +468,283 @@ li{
     height: 600px;
     align-items: center;
 }
+#sobreKnob{
+    display: flex;
+    flex-direction: column;
+    height: 420vh;
+}
+.tituloSobreKnob{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-height: auto;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.tituloSobreKnob p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.75);
+    user-select: none;
+}
+.linhaSobreKnob{
+    width: 30%;
+    user-select: none;
+}
+.tituloSectKnob{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: auto;
+    margin-top: 5%;
+    align-items: center;
+}
+.tituloSectKnob h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 38px;
+    text-align: center;
+    color: #1E1E1E;
+    width: 80%;
+}
+.linhaTituloSectKnob{
+    border: 5px solid #1EC8BB;
+    margin-top: 1%;
+    width: 50%;
+    display: flex;
+}
+.conteudoSobreKnob{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: auto;
+    align-items: center;
+}
+.enSolar{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    width: 100%;
+    margin-top: 5%;
+}
+.textosEnSolar{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 3%;
+}
+.tituloEnSolar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: auto;
+    margin-top: 5%;
+}
+.tituloEnSolar h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: left;
+    color: #1E1E1E;
+    width: 100%;
+}
+.linhaTituloEnSolar{
+    border: 5px solid #1EC8BB;
+    margin-top: 1%;
+    width: 45%;
+    display: flex;
+}
+.textosEnSolar p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+    color: #1E1E1E;
+    margin-top: 10%;
+}
+.imagemEnSolar{
+    background: #D9D9D9;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    display: flex;
+    width: 40%;
+    height: 500px;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.imagemEnSolar img{
+    height: 500px;
+    width: 100%;
+    border-radius: 5px;
+}
+.enNuclear{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    width: 100%;
+    margin-top: 5%;
+}
+.imagemEnNuclear{
+    background: #D9D9D9;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    display: flex;
+    width: 40%;
+    height: 500px;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.imagemEnNuclear img{
+    height: 500px;
+    width: 100%;
+    border-radius: 5px;
+}
+.textosEnNuclear{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 3%;
+}
+.tituloEnNuclear{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: auto;
+    margin-top: 5%;
+    align-items: flex-end;
+}
+.tituloEnNuclear h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: right;
+    color: #1E1E1E;
+    width: 100%;
+}
+.linhaTituloEnNuclear{
+    border: 5px solid #1EC8BB;
+    margin-top: 1%;
+    width: 45%;
+    display: flex;
+}
+.textosEnNuclear p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+    color: #1E1E1E;
+    margin-top: 10%;
+    text-align: right;
+}
+.tecInfo{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    width: 100%;
+    margin-top: 5%;
+}
+.textosTecInfo{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 3%;
+}
+.tituloTecInfo{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: auto;
+    margin-top: 5%;
+}
+.tituloTecInfo h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    text-align: left;
+    color: #1E1E1E;
+    width: 100%;
+}
+.linhaTituloTecInfo{
+    border: 5px solid #1EC8BB;
+    margin-top: 1%;
+    width: 45%;
+    display: flex;
+}
+.textosTecInfo p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+    color: #1E1E1E;
+    margin-top: 10%;
+}
+.imagemTecInfo{
+    background: #D9D9D9;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    display: flex;
+    width: 40%;
+    height: 500px;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+.imagemTecInfo img{
+    height: 500px;
+    width: 100%;
+    border-radius: 5px;
+}
+.tituloVisao{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-height: auto;
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.tituloVisao p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.75);
+    user-select: none;
+}
+.linhaVisao{
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    width: 30%;
+    user-select: none;
+}
+.paragrafoVisao{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 26px;
+    text-align: center;
+    color: #1E1E1E;
+    margin-top: 3%;
+    width: 90%;
+}
+
+
+
+
+
+
 footer{
     background-color: rgba(52, 51, 51, 1);
     display: flex;
